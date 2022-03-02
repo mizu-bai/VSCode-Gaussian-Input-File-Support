@@ -1,0 +1,143 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "gjf",
+	"patterns": [
+		{
+			"include": "#com-startup"
+		},
+		{
+			"include": "#com-route"
+		},
+		{
+			"include": "#com-link-0"
+		},
+		{
+			"include": "#com-option"
+		},
+		{
+			"include": "#com-cmd"
+		},
+		{
+			"include": "#com-basis"
+		},
+		{
+			"include": "#com-method"
+		},
+		{
+			"include": "#number"
+		},
+		{
+			"include": "#atom"
+		},
+		{
+			"include": "#sh-comment"
+		}
+	],
+	"repository": {
+		"com-option": {
+			"patterns": [
+				{
+					"include": "#scrf"
+				},
+				{
+					"include": "#guess"
+				},
+				{
+					"include": "#geometry"
+				},
+				{
+					"include": "#opt-irc"
+				},
+				{
+					"include": "#scf"
+				},
+				{
+					"include": "#integral-cphf"
+				},
+				{
+					"include": "#population-analysis"
+				},
+				{
+					"include": "#other"
+				},
+				{
+					"include": "#td"
+				}
+			]
+		},
+		"scrf": {
+			"match": "(scrf|solvent)",
+			"name": "keyword.control"
+		},
+		"guess": {
+			"match": "(guess|read|tcheck)",
+			"name": "keyword.control"
+		},
+		"geometry": {
+			"match": "(geom|checkpoint|allcheck|connectivity|nodistance)",
+			"name": "keyword.control"
+		},
+		"opt-irc": {
+			"match": "(readopt|calcfc|readfc|rcfc|calcall|symmetry|restart|pseudo|maxpoints|recalc|stepsize|ts|maxstep|eigentest|noeigentest|forward|reverse|z-matrix|modredundant|redundant|cartesian|gediis|rfo|ef)",
+			"name": "keyword.control"
+		},
+		"scf": {
+			"match": "(scf|maxcycle|conver|qc)",
+			"name": "keyword.control"
+		},
+		"integral-cphf": {
+			"match": "(integral|int|cphf|grid|fine|finegrid|ultrafine|ultrafinegrid|superfine|superfinegrid|coarse|coarsegrid|sg1|sg1grid)",
+			"name": "keyword.control"
+		},
+		"population-analysis": {
+			"match": "(pop|full|nbo|nbo6|nbo6read)",
+			"name": "keyword.control"
+		},
+		"other": {
+			"match": "nosymm",
+			"name": "keyword.control"
+		},
+		"td": {
+			"match": "(singlets|triplets|root)",
+			"name": "keyword.control"
+		},
+		"com-cmd": {
+			"match": "(irc|opt|fopt|popt|freq|nmr|td)",
+			"name": "entity.name.function"
+		},
+		"com-link-0": {
+			"match": "(nprocshared|mem|chk|oldchk|rwf|lindaworkers|usessh|save|nosave)",
+			"name": "entity.name.function"
+		},
+		"com-basis": {
+			"match": "(sto-3g|3-21g|6-21g|6-31g|6-311g|d95v|d95|shc|cep-4g|cep-31g|cep-121g|lanl2mb|lanl2dz|sdd|sddall|cc-pvdz|cc-pvtz|cc-pvqz|cc-pv5z|cc-pv6z|sv|svp|tzv|tzvp|def2sv|def2svp|def2svpp|def2tzv|def2tzvp|def2tzvpp|def2qzv|def2qzvp|def2qzvpp|qzvp|midix|epr-ii|epr-iii|ugbs|mtsmall|w06|fit|notfit|auto)",
+			"name": "entity.name.type"
+		},
+		"com-method": {
+			"match": "(hf|mp2|mp3|mp4|mp5|b2plyp|mpw2plyp|ci)",
+			"name": "entity.name.type"
+		},
+		"com-startup": {
+			"match": "(%|=)",
+			"name": "support.function.git-rebase"
+		},
+		"com-route": {
+			"match": "#",
+			"name": "support.function.git-rebase"
+		},
+		"sh-comment": {
+			"begin": "(\"|')",
+			"end": "(\"|')",
+			"name": "string.quoted.double"
+		},
+		"number": {
+			"match": "(\\+|-)?(\\d*(\\.\\d+)|\\d+)",
+			"name": "constant.numeric"
+		},
+		"atom": {
+			"match": "\\b(H|He|Li|Be|B|C|N|O|F|Ne|Na|Mg|Al|Si|P|S|Cl|Ar|K|Ca|Sc|Ti|V|Cr|Mn|Fe|Co|Ni|Cu|Zn|Ga|Ge|As|Se|Br|Kr|Rb|Sr|Y|Zr|Nb|Mo|Tc|Ru|Rh|Pd|Ag|Cd|In|Sn|Sb|Te|I|Xe|Cs|Ba|La|Ce|Pr|Nd|Pm|Sm|Eu|Gd|Tb|Dy|Ho|Er|Tm|Yb|Lu|Hf|Ta|W|Re|Os|Ir|Pt|Au|Hg|Tl|Pb|Bi|Po|At|Rn|Fr|Ra|Ac|Th|Pa|U|Np|Pu|Am|Cm|Bk|Cf|Es|Fm|Md|No|Lr|Rf|Db|Sg|Bh|Hs|Mt|Ds|Rg|Cn|Nh|Fl|Mc|Lv|Ts|Og)\\b",
+			"name": "entity.name.type"
+		}
+	},
+	"scopeName": "source.gjf"
+}

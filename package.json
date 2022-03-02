@@ -1,0 +1,43 @@
+{
+	"name": "gaussian-input-file",
+	"displayName": "Gaussian Input File (gjf)",
+	"description": "Gaussian Input File Syntax Highlight Support",
+	"version": "0.0.1",
+	"publisher": "mizu-bai",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "Gaussian Input File",
+				"aliases": [
+					"gjf"
+				],
+				"extensions": [
+					".gjf",
+					".com"
+				],
+				"configuration": "./language-configuration.json"
+			}
+			],
+		"grammars": [
+			{
+				"language": "Gaussian Input File",
+				"scopeName": "source.gjf",
+				"path": "./syntaxes/gjf.tmLanguage.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support"
+	},
+	"homepage": "https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/blob/main/README.md"
+}
