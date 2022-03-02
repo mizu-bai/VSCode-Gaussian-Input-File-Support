@@ -14,13 +14,13 @@ A Visual Studio Code extension for Gaussian input file (aka. `*.gjf` file) with 
 
 ## Preview
 
-![preview-image](https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/blob/main/assets/preview-drak-plus.png)
-
 Drak+ Theme
 
-![preview-image](https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/blob/main/assets/preview-monokai.png)
+![preview-image](https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/blob/main/assets/preview-drak-plus.png)
 
 Monokai Theme
+
+![preview-image](https://github.com/mizu-bai/VSCode-Gaussian-Input-File-Support/blob/main/assets/preview-monokai.png)
 
 ## References
 
