@@ -1,5 +1,5 @@
 {
-	"name": "gaussian-input-file",
+	"name": "gjf",
 	"displayName": "Gaussian Input File (gjf)",
 	"description": "Gaussian Input File Syntax Highlight Support",
 	"version": "0.0.1",
@@ -13,9 +13,9 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "Gaussian Input File",
+				"id": "gjf",
 				"aliases": [
-					"gjf"
+					"Gaussian Input File"
 				],
 				"extensions": [
 					".gjf",
@@ -26,7 +26,7 @@
 			],
 		"grammars": [
 			{
-				"language": "Gaussian Input File",
+				"language": "gjf",
 				"scopeName": "source.gjf",
 				"path": "./syntaxes/gjf.tmLanguage.json"
 			}
