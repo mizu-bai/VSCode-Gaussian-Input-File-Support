@@ -1,5 +1,5 @@
 {
-	"name": "gjf",
+	"name": "gaussian-input-file",
 	"displayName": "Gaussian Input File (gjf)",
 	"description": "Gaussian Input File Syntax Highlight Support",
 	"version": "0.0.2",
