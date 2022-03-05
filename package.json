@@ -2,7 +2,7 @@
 	"name": "gjf",
 	"displayName": "Gaussian Input File (gjf)",
 	"description": "Gaussian Input File Syntax Highlight Support",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "mizu-bai",
 	"engines": {
 		"vscode": "^1.64.0"
@@ -23,7 +23,7 @@
 				],
 				"configuration": "./language-configuration.json"
 			}
-			],
+		],
 		"grammars": [
 			{
 				"language": "gjf",
