@@ -4,13 +4,14 @@ A Visual Studio Code extension for Gaussian input file (aka. `*.gjf` file) with 
 
 ## Features
 
-- Basic syntax highlight
-    - Link 0 commands
-    - Keyword options
-    - Methods
-    - Basises
-    - Atom symbols
-    - Numbers
+Now support basic syntax highlight.
+
+- Link 0 commands
+- Keyword options
+- Methods
+- Basises
+- Atom symbols
+- Numbers
 
 ## Preview
 
