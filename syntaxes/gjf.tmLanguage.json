@@ -53,55 +53,55 @@
 			]
 		},
 		"scrf": {
-			"match": "(scrf|solvent)",
+			"match": "(?i)(scrf|solvent)",
 			"name": "variable.language"
 		},
 		"guess": {
-			"match": "(guess|read|tcheck)",
+			"match": "(?i)(guess|read|tcheck)",
 			"name": "variable.language"
 		},
 		"geometry": {
-			"match": "(geom|checkpoint|allcheck|connectivity|nodistance)",
+			"match": "(?i)(geom|checkpoint|allcheck|connectivity|nodistance)",
 			"name": "variable.language"
 		},
 		"opt-irc": {
-			"match": "(readopt|calcfc|readfc|rcfc|calcall|symmetry|restart|pseudo|maxpoints|recalc|stepsize|ts|maxstep|eigentest|noeigentest|forward|reverse|z-matrix|modredundant|redundant|cartesian|gediis|rfo|ef)",
+			"match": "(?i)(readopt|calcfc|readfc|rcfc|calcall|symmetry|restart|pseudo|maxpoints|recalc|stepsize|ts|maxstep|eigentest|noeigentest|forward|reverse|z-matrix|modredundant|redundant|cartesian|gediis|rfo|ef)",
 			"name": "variable.language"
 		},
 		"scf": {
-			"match": "(scf|maxcycle|conver|qc)",
+			"match": "(?i)(scf|maxcycle|conver|qc)",
 			"name": "variable.language"
 		},
 		"integral-cphf": {
-			"match": "(integral|int|cphf|grid|fine|finegrid|ultrafine|ultrafinegrid|superfine|superfinegrid|coarse|coarsegrid|sg1|sg1grid)",
+			"match": "(?i)(integral|int|cphf|grid|fine|finegrid|ultrafine|ultrafinegrid|superfine|superfinegrid|coarse|coarsegrid|sg1|sg1grid)",
 			"name": "variable.language"
 		},
 		"population-analysis": {
-			"match": "(pop|full|nbo|nbo6|nbo6read)",
+			"match": "(?i)(pop|full|nbo|nbo6|nbo6read)",
 			"name": "variable.language"
 		},
 		"other": {
-			"match": "nosymm",
+			"match": "(?i)nosymm",
 			"name": "variable.language"
 		},
 		"td": {
-			"match": "(singlets|triplets|root)",
+			"match": "(?i)(singlets|triplets|root)",
 			"name": "variable.language"
 		},
 		"com-cmd": {
-			"match": "(irc|opt|fopt|popt|freq|nmr|td)",
+			"match": "(?i)(irc|opt|fopt|popt|freq|nmr|td)",
 			"name": "keyword.control"
 		},
 		"com-link-0": {
-			"match": "(nprocshared|mem|chk|oldchk|rwf|lindaworkers|usessh|save|nosave)",
+			"match": "(?i)(nprocshared|mem|chk|oldchk|rwf|lindaworkers|usessh|save|nosave)",
 			"name": "keyword.control"
 		},
 		"com-basis": {
-			"match": "(sto-3g|3-21g|6-21g|6-31g|6-311g|d95v|d95|shc|cep-4g|cep-31g|cep-121g|lanl2mb|lanl2dz|sdd|sddall|cc-pvdz|cc-pvtz|cc-pvqz|cc-pv5z|cc-pv6z|sv|svp|tzv|tzvp|def2sv|def2svp|def2svpp|def2tzv|def2tzvp|def2tzvpp|def2qzv|def2qzvp|def2qzvpp|qzvp|midix|epr-ii|epr-iii|ugbs|mtsmall|w06|fit|notfit|auto)",
+			"match": "(?i)(sto-3g|3-21g|6-21g|6-31g|6-311g|d95v|d95|shc|cep-4g|cep-31g|cep-121g|lanl2mb|lanl2dz|sdd|sddall|cc-pvdz|cc-pvtz|cc-pvqz|cc-pv5z|cc-pv6z|sv|svp|tzv|tzvp|def2sv|def2svp|def2svpp|def2tzv|def2tzvp|def2tzvpp|def2qzv|def2qzvp|def2qzvpp|qzvp|midix|epr-ii|epr-iii|ugbs|mtsmall|w06|fit|notfit|auto)",
 			"name": "support.function"
 		},
 		"com-method": {
-			"match": "(hf|mp2|mp3|mp4|mp5|b2plyp|mpw2plyp|ci)",
+			"match": "(?i)(hf|mp2|mp3|mp4|mp5|b2plyp|mpw2plyp|ci|b3lyp|b3p86|b3pw91|o3lyp|apfd|apf|wb97xd|lc-whpbe|lc-wpbe|cam-b3lyp|wb97xd|wb97|wb97x|mn15|m11|sogga11x|n12sx|mn12sx|pw6b95|pw6b95d3|m08hx|m06|m06hf|m062x|m05|m052x|pbe1pbe|hseh1pbe|ohse2pbe|ohse1pbe|pbeh1pbe|b1b95|b1lyp|mpw1pw91|mpw1lyp|mpw1pbe|mpw3pbe|b98|b971|b972|tpssh|thcthhyb|bmk|hissbpbe|x3lyp|bhandh|bhandhlyp|iop)",
 			"name": "support.function"
 		},
 		"string-double": {
